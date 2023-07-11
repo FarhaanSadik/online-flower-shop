@@ -26,7 +26,7 @@ body {
 /* main style */
 main {
     width: 1140px;
-    margin: 128px auto;
+    margin: 0px auto;
 
 }
 
@@ -37,9 +37,10 @@ main {
     background: rgba(229, 84, 115, 0.10);
 }
 
-.banner-txt-container{
+.banner-txt-container {
     margin-right: 110px;
 }
+
 .banner-container {
     display: flex;
     align-items: center;
@@ -72,6 +73,9 @@ main {
 
 
 /* featured flower section */
+.feature-flower-section {
+    margin-top: 128px;
+}
 
 .featured-flower-title {
     color: #272727;
@@ -110,7 +114,8 @@ main {
     width: 250px;
 
 }
-#flower-img2{
+
+#flower-img2 {
     width: 350px;
 }
 
@@ -132,4 +137,79 @@ main {
     font-size: 24px;
     font-weight: 400;
     text-decoration-line: underline;
+}
+
+/* service section*/
+.service {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 128px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 86px 130px;
+    gap: 100px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-img {
+    width: 88px;
+}
+
+.service-name {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* hot deal section */
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+}
+
+
+.deal-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1140px;
+}
+
+.deal-image {
+    width: 500px;
+    margin-top: 50px;
+
+}
+
+.deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    width: 550px;
+    margin: 24px 0px;
+}
+
+.off {
+    color: #E55473;
+    font-weight: 800;
+}
+
+.deal-image {
+    width: 318px;
+    margin: 100px 0;
 }

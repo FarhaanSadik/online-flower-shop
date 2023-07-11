@@ -1,2 +1,62 @@
 /* common style applied */
-body{font-family: 'Poppins', sans-serif;}
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 650px;
+    margin-bottom: 32px;
+}
+.btn {
+    border: 0;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #9a394e;
+}
+
+
+/* banner */
+.banner {
+    display: flex;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    
+}
+
+.banner-image {
+    width: 500px;
+    margin-top: 50px;
+
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    width: 608px;
+    line-height: 80px;
+    margin-bottom: 32px;
+}
+.banner-txt-container {
+    margin-right: 200px;
+    margin-left: 240px;
+}
+
+/* featured flower section */
